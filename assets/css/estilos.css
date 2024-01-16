@@ -16,23 +16,50 @@ body {
   width: 150px;
 }
 
-/* Mis trabajos */
-
-#portafolio .image-top {
-  height: 450px;
-  width: 100%;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+/*imagen*/
+.imagenfot{
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2%;
+  width: 15%;
+  border-radius: 100px;
 }
 
-/* Contacto */
+.nombre{
+  display: flex;
+  width: 20%;
+}
 
+.descripcion{
+  margin-left: 50px;
+}
+
+.datos{
+  margin-left: 50px;
+}
+
+.educacion{
+  margin-left: 50px;
+}
+
+.experiencias{
+  margin-left: 50px;
+}
+
+
+/* Mis trabajos */
+
+
+
+
+/* Contacto */
 #Contacto form label {
   font-weight: 700;
   color: #373a3c;
 }
 
+
+/*Query*/
 @media (max-width: 768px) {
   #Contacto form label {
     font-weight: 400;
