@@ -64,6 +64,11 @@ body {
   color: #373a3c;
 }
 
+/* Experiencia */
+.empresa {
+  border-collapse: collapse;
+  border-top: 1px solid #ddd;
+}
 
 /*Query*/
 @media (max-width: 768px) {
